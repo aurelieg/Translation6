@@ -1,0 +1,8 @@
+tolq_auto_client_review: false
+files:
+  - source_file: en_3.yml
+    source_language: en
+    target_languages:
+      - language: fr
+        target_file: fr_3.yml
+        quality: translation
