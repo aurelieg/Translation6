@@ -1,0 +1,36 @@
+en:    
+    index:
+      anonymous: "Anonymous"
+      resend_activation_mail: "resend activation mail"
+      change_password: "Change Password"
+      connected:
+        facebook: "Connected through Facebook"
+        github: "Connected through GitHub"
+        google_oauth2: "Connected through Google Accounts"
+        linkedin: "Connected through LinkedIn"
+        yahoo: "Connected through Yahoo!"
+      edit_details: "Edit details"
+      timezone: "Time Zone"
+      invoices: "Invoices"
+      view_invoices: "View invoices"
+      manage_editors: "Manage editors"
+
+    editors:
+      title: "Manage your team members"
+      intro: "You are the owner of a primary account, this allows you to invite and manage new team members.<br>Team members will be able to create and handle their own orders which will be still accessible (and filterable) from this account."
+      placeholder: "Type the team member e-mail here"
+      add_new: Add new team member
+      email: Email
+      email_input_explanation: The owner of this account will receive an invitation via email to become a team  member
+      create_team_member: Create team member
+      last_sign_in: Last sign in
+      translation_requests: Translation Requests
+      account_type: Account type
+      delete_editor: Delete this editor
+      resend_invitation: Resend invitation
+      never: Never
+      primary_account: Primary account
+      editor: Editor
+      time_ago: "%{time_ago} ago"
+      wrong_editor_id:  Wrong editor id
+      resent_invitation: "Resent invitation to %{editor}"
