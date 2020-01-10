@@ -1,0 +1,117 @@
+---
+fr:
+  authentications:
+    no_email_provided: Vous devez to provide a valid e-mail address
+    email_updated: Votre email has been updated
+  billing-info:
+    add: Ajouter une carte bancaire
+    edit: Edit
+    new: Edit
+    tax_id: No de TVA
+    add_method: Ajouter billing information
+  source_orders:
+    tabs:
+      plain: Commander Plain Text
+      json: Commander JSON
+      api: API request
+    explanation:
+      machine: Traduction automatique without human intervention
+      community: Invitez your own traducteurs using the invite link (under Settings)
+      translation: Traduction by a human traducteur. No proofreading.
+      localization: Traduction and proofreading by experienced human traducteurs.
+      expert: Traduction and proofreading by the most experienced human traducteurs.
+      postediting: Machine traduction edited and proofread by an experienced human
+        traducteurs.
+    target_languages: Langues cible
+    target_language:
+      show: show
+      hide: hide
+      savings_details: savings details
+      quality: Qualité
+      total_words: Total mots
+      translatable_words: Traduisibles words
+      words_to_translate: Mots left to translate
+      savings_formula: Traduction Memory savings
+      duplication_savings: Duplication savings
+      free: GRATUIT
+      machine_generated_explanation: Notre language that allows you to experience
+        Tolq for free.
+      add_language: Ajouter new language
+      select_language: Sélectionner your language
+    order_current: Commander traductions
+    overlay:
+      order_confirmation: Order confirmation
+      order_confirmation_question: Êtes vous sûrs you want to order the following
+        translations?
+      total: Total
+    json:
+      explanation: 'You can enter your content using JSON with the following format:'
+      format: '[ { "key": "key1", "text": "text1" }, ... ]'
+      error: Ce n'st pas not valid JSON; use the example as a guide.
+      title: Contenu in JSON format
+    url_explanation: Traducteurs will be able to see any url indicated here. Recommendé
+      pour translations based on live websites.
+    auto_review: Automatic client review
+    file_too_long: File is too long to display - please contact support and they'll
+      place your order.
+    forgot: Forgot your password?
+    no_receive_confirmation: Didn't receive confirmation instructions?
+    no_receive_unlock: Didn't receive unlock instructions?
+    sign_in_with: Sign in with %{provider}
+    confirmations:
+      new:
+        new_confirmation: No worries! Enter the e-mail address you used to sign up
+          with and we'll resend you the confirmation link. Please be sure to check
+          your spam folder as well.
+        resend: Resend confirmation instructions
+    mailer:
+      confirmation_instructions:
+        welcome: Welcome %{email}!
+        confirm_instructions: To get started we need to verify that you actually own
+          this e-mail address. Please activate your account by using the big button
+          below so you can be on your way.
+        confirm: Activate account
+      reset_password_instructions:
+        hello: Hello %{email}!
+        change_pwd: Reset password
+        explanation1: You have requested a link to change your password. You can reset
+          your password through the link below.
+        explanation2: If you didn't request this, please ignore this email.
+        explanation3: Your password won't change until you click the button and create
+          a new one.
+      unlock_instructions:
+        hello: Hello %{email}!
+        explanation1: Your account has been locked due to an excessive amount of unsuccessful
+          sign in attempts.
+        explanation2: 'Click the link below to unlock your account:'
+        unlock: Unlock my account
+    passwords:
+      edit:
+        change_your_pwd: Change your password
+        change_my_pwd: p
+        new_pwd: New password
+        confirm_pwd: Confirm new password
+      new:
+        new_password: No worries! Please enter the e-mail address you used to sign
+          up with so we can send you instructions on how to reset your password.
+        reset: Send me reset password instructions
+        email: Email
+    registrations:
+      edit:
+        edit: Edit Account
+        unhappy: Unhappy?
+        cancel: Cancel my account
+        leave_blank: "(leave blank if you don't want to change it)"
+        current_pwd_explanation: "(we need your current password to confirm your changes)"
+      new:
+        sign_up_by_connecting_to: 'Hi there! Sign up by connecting to:'
+        or_use_email: 'Or by using your email address:'
+        accept_tos: By signing up vous acceptez our <a href="http://www.tolq.com/disclaimer">Terms
+          &amp; Conditions</a>.
+    sessions:
+      new:
+        welcome_back: Welcome back to Tolq! Please log in to continue.
+        signing_in: Signing in...
+    unlocks:
+      new:
+        resend: Resend unlock instructions

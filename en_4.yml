@@ -1,0 +1,114 @@
+  # CONTENTS
+  # - generic strings (models, actions), alphabetical
+  # - controller/action strings (including layouts), alphabetical
+
+en:
+
+  authentications:
+    no_email_provided: 'You need to provide a valid e-mail address'
+    email_updated: 'Your email has been updated'
+
+  billing-info:
+    add: Add Credit Card
+    edit: Edit
+    new: Edit
+    tax_id: Tax ID
+    add_method: "Add billing information"
+
+  source_orders:
+    tabs:
+      plain: Order Plain Text
+      json: Order JSON
+      api: API request
+    explanation:
+      machine: 'Automated computer translation without human intervention'
+      community: 'Invite your own translators using the invite link (under Settings)'
+      translation: 'Translation by a human translator. No proofreading.'
+      localization: 'Translation and proofreading by experienced human translators.'
+      expert: 'Translation and proofreading by the most experienced translators.'
+      postediting: 'Machine translations edited and proofread by an experienced human translator.'
+    target_languages: 'Target languages'
+    target_language:
+      show: 'show'
+      hide: 'hide'
+      savings_details: 'savings details'
+      quality: 'Quality'
+      total_words: 'Total words'
+      translatable_words: 'Translatable words'
+      words_to_translate: 'Words left to translate'
+      savings_formula: 'Translation Memory savings'
+      duplication_savings: 'Duplication savings'
+      free: 'FREE'
+      machine_generated_explanation: 'Our test language that allows you to experience Tolq for free.'
+      add_language: 'Add new language'
+      select_language: 'Select your language'
+    order_current: 'Order translations'
+    overlay:
+      order_confirmation: 'Order confirmation'
+      order_confirmation_question: 'Are you sure you want to order the following translations?'
+      total: 'Total'
+    json:
+      explanation: "You can enter your content using JSON with the following format:"
+      format: "[ { \"key\": \"key1\", \"text\": \"text1\" }, ... ]"
+      error: "This is not valid JSON; use the example as a guide."
+      title: Content in JSON format
+    url_explanation: Translators will be able to see any url indicated here. Recommended for translations based on live websites.
+    auto_review: Automatic client review
+    file_too_long: "File is too long to display - please contact support and they'll place your order."
+    devise:
+    forgot: Forgot your password?
+    no_receive_confirmation: Didn't receive confirmation instructions?
+    no_receive_unlock: Didn't receive unlock instructions?
+    sign_in_with: "Sign in with %{provider}"
+    confirmations:
+      new:
+        new_confirmation: "No worries! Enter the e-mail address you used to sign up with and we'll resend you the confirmation link. Please be sure to check your spam folder as well."
+        resend: Resend confirmation instructions
+    failure:
+      unauthenticated: ""
+    mailer:
+      confirmation_instructions:
+        welcome: "Welcome %{email}!"
+        confirm_instructions: "To get started we need to verify that you actually own this e-mail address. Please activate your account by using the big button below so you can be on your way."
+        confirm: "Activate&nbsp;account"
+      reset_password_instructions:
+        hello: "Hello %{email}!"
+        change_pwd: "Reset&nbsp;password"
+        explanation1: "You have requested a link to change your password. You can reset your password through the link below."
+        explanation2: "If you didn't request this, please ignore this email."
+        explanation3: "Your password won't change until you click the button and create a new one."
+      unlock_instructions:
+        hello: "Hello %{email}!"
+        explanation1: Your account has been locked due to an excessive amount of unsuccessful sign in attempts.
+        explanation2: "Click the link below to unlock your account:"
+        unlock: Unlock my account
+    passwords:
+      edit:
+        change_your_pwd: Change your password
+        change_my_pwd: Change my password
+        new_pwd: New password
+        confirm_pwd: Confirm new password
+      new:
+        new_password: "No worries! Please enter the e-mail address you used to sign up with so we can send you instructions on how to reset your password."
+        reset: Send me reset password instructions
+        email: Email
+    registrations:
+      edit:
+        edit: Edit Account
+        unhappy: Unhappy?
+        cancel: Cancel my account
+        leave_blank: "(leave blank if you don't want to change it)"
+        current_pwd_explanation: "(we need your current password to confirm your changes)"
+      new:
+        sign_up_by_connecting_to: "Hi there! Sign up by connecting to:"
+        or_use_email: "Or by using your email address:"
+        accept_tos: "By signing up you accept our <a href='http://www.tolq.com/disclaimer'>Terms &amp; Conditions</a>."
+    sessions:
+      signed_in: ""
+      signed_out: ""
+      new:
+        welcome_back: "Welcome back to Tolq! Please log in to continue."
+        signing_in: Signing in...
+    unlocks:
+      new:
+        resend: Resend unlock instructions
